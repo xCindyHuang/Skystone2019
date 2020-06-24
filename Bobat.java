@@ -12,12 +12,6 @@ public class Bobat {
     public DcMotor rotMotor = null;
     public DcMotor tape = null;
 
-
-    //    public DcMotor frontLeft = null;
-//    public DcMotor frontRight = null;
-//    public DcMotor backLeft = null;
-//    public DcMotor backRight = null;
-//    public Servo fServo1;
     public Servo fServo2;
     public Servo armServo;
     public Servo phServo;
