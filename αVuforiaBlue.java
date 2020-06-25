@@ -63,8 +63,8 @@ public class αVuforiaBlue extends LinearOpMode {
     private static final boolean PHONE_IS_PORTRAIT = false  ;
 
     private static final String VUFORIA_KEY =
-     //       " Ab7HqNX/////AAABmdnDkBLWGEnOg5hQXSh0ndkwu8q4ShVgPUGXJf/bzTucWLiBDJ/aVPbCgtn5kvY1ZqGJxMBSWqfhGulHJcb/t/p6ehxUdvyv+TrSiviuZl3MRM4YhocbdrMTI5NQlZkSpfsRFuSGenl02aP/jwmOMKszvkMiHHNanzJboEmm4BPdilaKWD+5KwA2lhQsP09QaS6ntqKo2PGSiA/K/gFGqJeAI+sKDkh3hwOHpCQt4tkBQE0tsm2XqRr+NWdPKmd4jlFM5BuqiyhxEXZr0j4CESbPvRUJwniQtSrQM4Ig3XXODWaBNW+vYJcra5xF4FHfS6wHNfc9X9C6d98Mce7A+Bu2+WhKBfR6jmY9HdhOSvyy ";"";
-        "AfSJVqX/////AAABmYrY5rPR40ygk9uCQXjkV84G7sIxetH9CzdjPTRspVI52DgP9k6fuaeyn7+Pem6qdohAgWrLeggF2cjkidvJjk3kUp8HYgjzxwz++QabFEJIqFoUTp8IPURUw3Ng5Q8IbKX6GGoctq4UXvEUnBmTmdmU+LLDZMSIQQ6Hu6stbREiDrmV0qSs/vQNtFKXbkGu7tesFMtnXimTH6DWhFCQvNJt43JqBtAJxNbIS4NXAEqyw1OnPajb0TJMyzFASN8QlhQdYg3Ey8KX8nGSvZymc5X9Bb2lF0elTuQ/3beQV0lbxU7z0h1TrpP3DhX4FYsJV8whkqevFGMFQBvmexvR7UVOBChShR/mKkRrX3AMIurL";
+   
+     "AfSJVqX/////AAABmYrY5rPR40ygk9uCQXjkV84G7sIxetH9CzdjPTRspVI52DgP9k6fuaeyn7+Pem6qdohAgWrLeggF2cjkidvJjk3kUp8HYgjzxwz++QabFEJIqFoUTp8IPURUw3Ng5Q8IbKX6GGoctq4UXvEUnBmTmdmU+LLDZMSIQQ6Hu6stbREiDrmV0qSs/vQNtFKXbkGu7tesFMtnXimTH6DWhFCQvNJt43JqBtAJxNbIS4NXAEqyw1OnPajb0TJMyzFASN8QlhQdYg3Ey8KX8nGSvZymc5X9Bb2lF0elTuQ/3beQV0lbxU7z0h1TrpP3DhX4FYsJV8whkqevFGMFQBvmexvR7UVOBChShR/mKkRrX3AMIurL";
     private static final float mmPerInch        = 25.4f;
     private static final float mmTargetHeight   = (6) * mmPerInch;
     private static final float stoneZ = 2.00f * mmPerInch;
@@ -400,8 +400,6 @@ public class αVuforiaBlue extends LinearOpMode {
             robot.backRight.setTargetPosition(newBR);
             robot.backLeft.setMode(DcMotor.RunMode.RUN_TO_POSITION);
             robot.backRight.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-//            robot.backLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-//            robot.backRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             robot.backLeft.setPower(power);
             robot.backRight.setPower(power);
             runtime.reset();
