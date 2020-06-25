@@ -111,19 +111,6 @@ public class YujinDrive extends LinearOpMode {
                 fServo2.setPosition(1);
             }
             float lastPos1 = -1;
-//            if(gamepad2.left_trigger != 0)
-//            {
-//                    if(Math.abs(lastPos1 - gamepad2.left_trigger) > 0.05) {
-//                        armServo.setPosition(-gamepad2.left_trigger);
-//
-//                    }
-//                telemetry.addData("arm", gamepad2.left_trigger);
-//                telemetry.update();
-//            }
-//            else
-//            {
-//                armServo.setPosition(0);
-//            }
 
 
             if(gamepad2.left_bumper)
