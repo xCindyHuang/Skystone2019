@@ -22,16 +22,12 @@ import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 
 import java.util.Locale;
 
-//akshat-was-here
-
 //@Autonomous(name = "LoadingBlue", group = "Autonomous")
 public class TimeExample extends LinearOpMode {
     // ColorSensor sensorColor;
 
     public DcMotor MotorFL, MotorBL;
     public DcMotor MotorFR, MotorBR;
-    // public DcMotor rotMotor;
-//    public Servo fServo1;
     public Servo fServo2;
     public Servo armServo;
     public Servo phServo;
