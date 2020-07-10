@@ -14,7 +14,6 @@ public class Driver extends LinearOpMode {
     public DcMotor MotorFR, MotorBR;
     public DcMotor rotMotor, intakeMotor1, intakeMotor2, tape;
     public Servo fServo2;
-    //  public Servo armServo;
     public Servo phServo, CapServo;
 
     @Override
@@ -51,7 +50,7 @@ public class Driver extends LinearOpMode {
                 Strafe(-gamepad1.right_trigger);
             } else if (gamepad1.left_trigger != 0) {
                 Strafe(gamepad1.left_trigger);
-            } else if (gamepad1.right_stick_x != 0) {//turning
+            } else if (gamepad1.right_stick_x != 0) {
 
                 Turn(-gamepad1.right_stick_x);
             } else {
@@ -93,11 +92,6 @@ public class Driver extends LinearOpMode {
             else{
                 rotMotor.setPower(0);
             }
-
-
-
-
-
             //FR =0, FL = 1, BR=2, BL = 3
             //finger servos
             float lastPos = -1;
